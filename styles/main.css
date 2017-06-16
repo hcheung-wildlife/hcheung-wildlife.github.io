@@ -6,24 +6,28 @@ body {
 }
 
 h1 {
+  font-family: 'Playfair Display', serif;
 	font-weight:400;
 	font-size: 5rem;
 	color: black;
 }
 
 h2 {
+  font-family: 'Playfair Display', serif;
 	font-weight: 400;
 	font-size: 4rem;
 	color: black;
 }
 
 h3 {
+  font-family: 'Playfair Display', serif;
 	font-weight: 300;
 	font-size: 3.5rem;
 	color:black;
 }
 
 p {
+  font-family: 'Helvetica Neue', sans-serif;
 	font-weight: 300;
 	font-size: 2rem;
 	color:black;
