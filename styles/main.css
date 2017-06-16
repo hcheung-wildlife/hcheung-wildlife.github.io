@@ -1,0 +1,100 @@
+body {
+	background-color: white;
+	font-family: sans-serif;
+	color: black;
+	margin: 1rem;
+}
+
+h1 {
+	font-weight:400;
+	font-size: 5rem;
+	color: black;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 4rem;
+	color: black;
+}
+
+h3 {
+	font-weight: 300;
+	font-size: 3.5rem;
+	color:black;
+}
+
+p {
+	font-weight: 300;
+	font-size: 2rem;
+	color:black;
+}
+
+a {
+	font-weight: 300;
+	font-size: 2rem;
+	color: blue;
+}
+
+a:hover {
+	font-weight: 300;
+	font-size:2rem;
+	color: #fe5800;
+}
+
+/********** Nav Bar Styling **********/
+.navbar-default{
+  background-color: transparent;
+  border-style:none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color:black;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight:200;
+  font-size:1rem;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color:white;
+  background-color:transparent;
+}
+
+.navbar-default .navbar-nav>li>a:active {
+  color:#000000;
+  background-color:transparent;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color:transparent;
+  color:black;
+}
+/* Nav Bar Toggle Button */
+
+.navbar-toggle .icon-bar {
+  display:block;
+  width:18px;
+  height:1px;
+  border-radius:0;
+}
+
+.navbar-brand{
+  color:black;
+}
+
+.navbar-default .navbar-toggle {
+  border: 1px solid black;
+  border-radius:0;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color:white;
+}
+.navbar-toggle{
+  padding:8px 7px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color:black;
+}
+
